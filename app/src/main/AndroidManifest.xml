@@ -19,6 +19,7 @@
 
         <activity android:name=".FirstProgramActivity" />
         <activity android:name=".SecondProgramActivity" />
+        <activity android:name=".ThirdProgramActivity" />
 
     </application>
 

@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * This method will open the Third Program activity
      */
     private void openThirdProgramActivity() {
-
+        Intent intent = new Intent(this, ThirdProgramActivity.class);
+        startActivity(intent);
     }
 }

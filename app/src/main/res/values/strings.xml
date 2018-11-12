@@ -18,5 +18,7 @@
     <string name="report">== Report ==</string>
     <string name="total_character">Total Characters: </string>
 
+    <string name="error_division_by_zero">Error: Division by zero</string>
+    <string name="error_syntax_error">Error: Syntax Error </string>
 
 </resources>
