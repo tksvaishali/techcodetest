@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TechCodeTesting</string>
+
+    <string name="program1">Program 1</string>
+    <string name="program2">Program 2</string>
+    <string name="program3">Program 3</string>
+    <string name="coding_test_challenge">Coding Test Challenge</string>
+
+    <string name="first_program_title">Program to find character \'a\' in entered string</string>
+    <string name="input_text">Please enter string : </string>
+    <string name="find_char">Find Character</string>
+    <string name="position_at">Position:  </string>
+    <string name="n_a">N/A</string>
+    <string name="run_program">Run Program </string>
+    <string name="report">== Report ==</string>
+
+
+</resources>
