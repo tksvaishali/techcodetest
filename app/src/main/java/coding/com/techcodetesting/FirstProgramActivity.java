@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 /**
- * The FirstProgramActivity is for program1 : Given an input with a string, use recursion to find the first position letter a is on.
+ * The FirstProgramActivity is for program 1 : Given an input with a string, use recursion to find the first position letter a is on.
  */
 public class FirstProgramActivity extends AppCompatActivity implements View.OnClickListener {
     private EditText etInput;

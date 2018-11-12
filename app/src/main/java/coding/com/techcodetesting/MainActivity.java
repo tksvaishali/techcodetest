@@ -11,7 +11,7 @@ import android.widget.Button;
  */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button btnProgram1, btnProgram2, btnProgram3;
+    private Button btnProgram1, btnProgram2, btnProgram3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +37,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         if (view.getId() == R.id.btnProgram1) {
             openFirstProgramActivity();
+        } else if (view.getId() == R.id.btnProgram2) {
+            openSecondProgramActivity();
+        } else if (view.getId() == R.id.btnProgram3) {
+            openThirdProgramActivity();
         }
     }
 
@@ -46,5 +50,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void openFirstProgramActivity() {
         Intent intent = new Intent(this, FirstProgramActivity.class);
         startActivity(intent);
+    }
+
+    /**
+     * This method will open the Second Program activity
+     */
+    private void openSecondProgramActivity() {
+        Intent intent = new Intent(this, SecondProgramActivity.class);
+        startActivity(intent);
+    }
+
+    /**
+     * This method will open the Third Program activity
+     */
+    private void openThirdProgramActivity() {
+
     }
 }

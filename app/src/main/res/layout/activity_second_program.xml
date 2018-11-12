@@ -4,20 +4,19 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical">
-
     <TextView
-        android:id="@+id/txtProgram1"
+        android:id="@+id/txtProgram2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:text="@string/first_program_title" />
+        android:text="@string/second_program_title" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:layout_marginTop="30dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
 
         <TextView
             android:id="@+id/txtInput"
@@ -29,7 +28,7 @@
             android:id="@+id/etInput"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="bcdefgabcdefg" />
+            android:text="a_++efg" />
     </LinearLayout>
 
     <TextView
@@ -37,13 +36,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="@string/position_at" />
+        android:text="@string/report" />
 
     <Button
-        android:id="@+id/btnFindChar"
+        android:id="@+id/btnRunProgram"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="@string/find_char" />
+        android:layout_marginTop="10dp"
+        android:text="@string/run_program" />
 
 </LinearLayout>

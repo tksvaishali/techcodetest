@@ -6,13 +6,17 @@
     <string name="program3">Program 3</string>
     <string name="coding_test_challenge">Coding Test Challenge</string>
 
-    <string name="first_program_title">Program to find character \'a\' in entered string</string>
+    <string name="first_program_title">Given an input with a string, use recursion to find the first position letter a is on.</string>
+    <string name="second_program_title">Write a program where, given a number of random string, it will output the the calculated result as a report.</string>
+    <string name="third_program_title">Write a calculator which takes in a number of string input and perform calculation.</string>
+
     <string name="input_text">Please enter string : </string>
     <string name="find_char">Find Character</string>
     <string name="position_at">Position:  </string>
     <string name="n_a">N/A</string>
-    <string name="run_program">Run Program </string>
+    <string name="run_program">Run Program</string>
     <string name="report">== Report ==</string>
+    <string name="total_character">Total Characters: </string>
 
 
 </resources>
