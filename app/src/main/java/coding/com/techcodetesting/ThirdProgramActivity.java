@@ -38,6 +38,7 @@ public class ThirdProgramActivity extends AppCompatActivity implements View.OnCl
     public void onClick(View view) {
         if (view == btnRunProgram) {
             String stringInput = etInput.getText().toString();
+            stringInput = stringInput.replaceAll("\\s","");
             if (stringInput.contains("--")) {
                 stringInput = stringInput.replace("--", "+");
             }
@@ -65,6 +66,10 @@ public class ThirdProgramActivity extends AppCompatActivity implements View.OnCl
     double computeAnother(String equation) throws NumberFormatException {
         double result = 0.0;
         try {
+            if(equation.startsWith("-")|| equation.startsWith("+") ){
+                equation = "0" + equation;
+            }
+
             String noMinus = equation.replace("-", "+-");
             String[] byPluses = noMinus.split("\\+");
 

@@ -45,7 +45,8 @@ public class SecondProgramActivity extends AppCompatActivity implements View.OnC
             String stringInput = etInput.getText().toString();
             Map mapCharCount = printReport(stringInput);
             int totalCharCount = 0;
-            txtOutput.setText(getString(R.string.report));
+            txtOutput.setText(getString(R.string.format));
+            txtOutput.setText(txtOutput.getText().toString() + "\n" + getString(R.string.report));
             for (int i = 0; i < uniqueCharList.size(); i++) {
                 totalCharCount += (int) mapCharCount.get(uniqueCharList.get(i));
                 txtOutput.setText(txtOutput.getText().toString() + "\n" + uniqueCharList.get(i) + ": " + mapCharCount.get(uniqueCharList.get(i)));
